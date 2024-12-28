@@ -25,7 +25,7 @@ const productSchema = new mongoose.Schema({
 const ProductModel = mongoose.model('Product', productSchema);
 
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    res.send('Lab 4 Cicle CI');
 });
 
 // Lấy danh sách sản phẩm
