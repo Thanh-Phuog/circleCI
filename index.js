@@ -24,7 +24,6 @@ const productSchema = new mongoose.Schema({
 
 const ProductModel = mongoose.model('Product', productSchema);
 
-// Route chính
 app.get('/', (req, res) => {
     res.send('Hello World');
 });
